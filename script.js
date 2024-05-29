@@ -22,7 +22,7 @@ function somar() {
   //Realiza a soma do valor que está na variável "primeiro_numero_inteiro" com o valor que está na
   //variável "segundo_numero_inteiro"
   //E a variável "resultado_soma" recebe o valor da soma
-  let resultado_soma = primeiro_numero_maior_que > segundo_numero_maior_que;
+  let resultado_soma = primeiro_numero_maior_que + segundo_numero_maior_que;
 
   //Aqui vai escrever no input "resultado_soma" o valor que está armazenado na variável "resultado_soma"
   document.getElementById("resultado_soma").value = resultado_soma;
